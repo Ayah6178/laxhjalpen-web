@@ -3,7 +3,7 @@
 body {
   margin: auto;            
   max-width: 860px;
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", "Liberation Sans", calibri, Arial, sans-serif;
   font-size: 100%;         
 }
 
@@ -121,4 +121,28 @@ footer {
     box-shadow: inset 0 0 20px #007241;
     border-radius: 50%;
 }
-  
+h1{
+    font-family: 'Merienda one', cursive;
+}
+.menu h2 {
+    /*Ny rad i befintlig regel */
+    font-family: 'Merienda one', cursive;
+}
+h1::first-letter{
+    color: #00AF64;
+}
+.startpage .logo {
+    width: 235px;
+    height: 198px;
+}
+
+.hwrap {
+    display: flex; /* Gör divven till en flex container */
+    flex-wrap: wrap; /* Radbryt om det behövs */
+    align-items: center; /* Lägg elementen centrerat vertikalt */
+    justify-content: center; /* Och intill varandra centrerat */
+}
+
+.hwrap > a {
+    margin-right: 30px;
+}
